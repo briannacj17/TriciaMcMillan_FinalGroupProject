@@ -33,7 +33,7 @@ class MovieEncryption:
         encrypted_message = data.get(name)
         if encrypted_message:
             decrypted_message = MovieEncryption.decrypt_message(encrypted_message[0])
-            print("Decrypted message for", name, ":", decrypted_message)
+            print("The movie name for", name, ":", decrypted_message)
         else:
             print("No encrypted message found for", name)
 
