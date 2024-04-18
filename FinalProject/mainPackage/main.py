@@ -20,7 +20,7 @@ if __name__ == "__main__":
                 print(lines[row_number +1])
     
     # Example usage:
-    txt_file = "..\dataPackage\\UCEnglish.txt"
+    txt_file = "..\\dataPackage\\UCEnglish.txt"
     row_numbers_to_extract = [30942, 46342, 42061, 103568, 5040, 41700, 31066]
     print_specific_rows(txt_file, row_numbers_to_extract)
     
