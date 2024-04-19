@@ -11,8 +11,8 @@
 
 def groupPhoto():
     # open an image file. The default path is where this python module is
-    im = Image.open("../image_Package/and_name.jpg") # Image manipulation class
-    im.show()
-    save_image(im, "../image_Package/and_name.jpg")
+  #  im = Image.open("../image_Package/and_name.jpg") # Image manipulation class
+   # im.show()
+    #save_image(im, "../image_Package/and_name.jpg")
 
     
