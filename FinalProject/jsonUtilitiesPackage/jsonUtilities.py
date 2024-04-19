@@ -11,19 +11,11 @@
 
 import json
 
-         
-if __name__ == "__main__":    
-   
-    def Number_Words():
-        with open("..\\dataPackage\\EncryptedGroupHints Spring 2024 Section 002.json", 'r') as f:
-            data = json.load(f)
+def Number_Words():
+    with open("..\\dataPackage\\EncryptedGroupHints Spring 2024 Section 002.json", 'r') as f:
+        data = json.load(f)
                     
-                    # Extract specific data
+        # Extract specific data
         name = data['Tricia McMillan']       
-                # Print the extracted data
-                    
-
-        
-
-    
-    
+        # Print the extracted data
+        print(name)

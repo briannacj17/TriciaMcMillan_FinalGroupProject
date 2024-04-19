@@ -6,7 +6,7 @@
 # Course/Section:IS 4010-002
 # Semester/Year: Spring 2024
 # Brief Description of the assignment: To decrypt movie name
-# Citations:
+# Citations: https://stackoverflow.com/questions/67283961/decrypt-message-with-cryptography-fernet-do-not-work
 # Anything else that's relevant:
 import json
 from cryptography.fernet import Fernet
@@ -36,6 +36,3 @@ class MovieEncryption:
             print("The movie name for", name, ":", decrypted_message)
         else:
             print("No encrypted message found for", name)
-
-# Example usage:
-MovieEncryption.decrypt_message_from_file(file_path, 'Tricia McMillan')

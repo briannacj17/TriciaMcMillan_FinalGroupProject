@@ -10,19 +10,20 @@
 # Anything else that's relevant:
 
 import json
-from jsonUtilitiesPackage.jsonUtilities import *
-from dataUtilitiesPackage.decryption import MovieEncryption
+from dataUtilitiesPackage.decryption import *
 from jsonUtilitiesPackage.data import *
 
-
 if __name__ == "__main__":
-    #print_specific_rows(txt_file, row_numbers_to_extract)
-    MovieEncryption()
+    # Extract the movie name for Tricia McMillian
+    MovieEncryption.decrypt_message_from_file(file_path, 'Tricia McMillan')
     
-
-# Write an entry point (our main.py) that invokes each of the functions described above, 
-# displays the photo, 
-# and prints the two decrypted messages. No user input should be required. 
+    # Print the numbers to decrypt the location for the group picture
+    Number_Words()
+     
+    # Print the location to take a Group Picture
+    txt_file = "..\\dataPackage\\UCEnglish.txt"
+    row_numbers_to_extract = [30942, 46342, 42061, 103568, 5040, 41700, 31066]
+    print_specific_rows(txt_file, row_numbers_to_extract)
     
     
     

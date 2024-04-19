@@ -8,6 +8,8 @@
 # Brief Description of the assignment: Decode Tricia McMillian word rows for location
 # Citations:
 # Anything else that's relevant:
+from dataPackage import *
+from jsonUtilitiesPackage.jsonUtilities import *
 
 def print_specific_rows(txt_file, row_numbers):
     # Open the text file and read its contents
@@ -21,10 +23,3 @@ def print_specific_rows(txt_file, row_numbers):
         if row_number in lines:
             # Print the line corresponding to the row number
             print(lines[row_number +1])
-            
-# Example usage:
-txt_file = "..\\dataPackage\\UCEnglish.txt"
-row_numbers_to_extract = [30942, 46342, 42061, 103568, 5040, 41700, 31066]
-print_specific_rows(txt_file, row_numbers_to_extract)
-            
-        
