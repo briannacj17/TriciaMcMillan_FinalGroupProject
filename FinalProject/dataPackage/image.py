@@ -9,10 +9,16 @@
 # Citations:
 # Anything else that's relevant:
 
-def groupPhoto():
     # open an image file. The default path is where this python module is
   #  im = Image.open("../image_Package/and_name.jpg") # Image manipulation class
    # im.show()
     #save_image(im, "../image_Package/and_name.jpg")
 
-    
+# Importing Image class from PIL module
+from PIL import Image
+     
+# Opens a image in RGB mode
+im = Image.open(r"..\dataPackage\Image.jpg")
+     
+# Shows the image in image viewer
+im.show()
