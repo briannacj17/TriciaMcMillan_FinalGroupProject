@@ -10,7 +10,7 @@
 # Anything else that's relevant:
 
 """
-This py file imports the all th all the data files and json tools
+This py file imports all the data files and json tools
 so that for each line in the file it prints the row.
 """
 
