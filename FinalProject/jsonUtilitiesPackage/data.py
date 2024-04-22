@@ -1,6 +1,6 @@
 #data.py
-# Name: Brianna Jarrell, Leonie Troeger, Thomas Gilligan
-# email: jarrelbc@mail.uc.edu, troegele@mail.uc.edu, gilligtp@mail.uc.edu
+# Name: Brianna Jarrell, Leonie Troeger, Thomas Gilligan, Deonta Williams
+# email: jarrelbc@mail.uc.edu, troegele@mail.uc.edu, gilligtp@mail.uc.edu, willi6d3@mail.uc.edu
 # Assignment Number: Final Project
 # Due Date: 4-23-24
 # Course/Section:IS 4010-002
@@ -8,6 +8,12 @@
 # Brief Description of the assignment: Decode Tricia McMillian word rows for location
 # Citations:
 # Anything else that's relevant:
+
+"""
+This py file imports the all th all the data files and json tools
+so that for each line in the file it prints the row.
+"""
+
 from dataPackage import *
 from jsonUtilitiesPackage.jsonUtilities import *
 
