@@ -1,6 +1,6 @@
 # decryption.py
-# Name: Brianna Jarrell, Leonie Troeger, Thomas Gilligan
-# email: jarrelbc@mail.uc.edu, troegele@mail.uc.edu, gilligtp@mail.uc.edu
+# Name: Brianna Jarrell, Leonie Troeger, Thomas Gilligan, Deonta Williams
+# email: jarrelbc@mail.uc.edu, troegele@mail.uc.edu, gilligtp@mail.uc.edu, willi6d3@mail.uc.edu
 # Assignment Number: Final Project
 # Due Date: 4-23-24
 # Course/Section:IS 4010-002
@@ -8,6 +8,13 @@
 # Brief Description of the assignment: To decrypt movie name
 # Citations: https://stackoverflow.com/questions/67283961/decrypt-message-with-cryptography-fernet-do-not-work
 # Anything else that's relevant:
+
+"""
+this python file imports json, cryptography, and path libraries to
+open a json file.The key is cracked then used to loop through the json file 
+to decrypt the name.
+"""
+
 import json
 from cryptography.fernet import Fernet
 from pathlib import Path
