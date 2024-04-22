@@ -14,6 +14,3 @@ from PIL import Image
      
 # Opens a image in RGB mode
 im = Image.open(r"..\dataPackage\Image.jpg")
-     
-# Shows the image in image viewer
-im.show()
